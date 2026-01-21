@@ -4,6 +4,7 @@ Question 1
 =================
 """
 
+print("\n Question 1 \n")
 result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
 counter = 0  #Initializing count to store the number of times head appeared
 
@@ -21,6 +22,7 @@ Question 2
 =================
 """
 
+print("\n Question 2 \n")
 for i in range(1, 11):    #Looping through 1 to 10. Remember the end argument is not inclusive
     if i % 2 == 1:        #checking if odd number
         square = i ** 2   #squaring the odd number
@@ -33,6 +35,7 @@ Question 3
 =================
 """
 
+print("\n Question 3 \n")
 expense_list = [2340, 2500, 2100, 3100, 2980]
 month = ["January", "February", "March", "April", "May"]
 
@@ -53,6 +56,7 @@ Question 4
 =================
 """
 
+print("\n Question 4 \n")
 for i in range(1, 6):
     #Pring the number of KM and asking if their tired or not
     print(f"{i}KM Completed")
@@ -76,6 +80,7 @@ Question 5
 =================
 """
 
+print("\n Question 5 \n")
 for i in range(1, 6):
     print(f"{"*" * i}")     #Multiplying the string "*" by the value of the index
 
