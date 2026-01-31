@@ -41,3 +41,23 @@ elif (city1 in bangladesh) and (city2 in bangladesh):
     print("Both cities are in Bangladesh")
 else:
     print("They don't belong to same country")
+
+
+
+"""
+2. Write a python program that can tell you if your sugar is normal or not. Normal fasting level sugar range is 80 to 100.
+
+i) Ask user to enter his fasting sugar level
+ii) If it is below 80 then print that sugar is low
+iii) If it is above 100 then print that it is high otherwise print that it is normal
+
+"""
+
+sugar_level = float(input("Please enter your sugar level: "))
+
+if 80 <= sugar_level <= 100:
+    print("Your sugar level is normal")
+elif sugar_level < 80:
+    print("Your sugar level is low")
+else:
+    print("Your sugar level is high")
